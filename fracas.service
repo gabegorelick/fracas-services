@@ -16,7 +16,7 @@ ExecStart=/usr/bin/docker run -p 9000:9000 \
   -e USERS=false \
   -e URL=http://localhost:9000 \
   -e SESSION_STORE=redis \
-  -e SESSION_SECRET=YOU_MAY_WANT_TO_CHANGE_THIS_IN_PRODUCTION \
+  -e SESSION_SECRET=YOU_SHOULD_CHANGE_THIS_IN_PRODUCTION \
   -e WORKERS=1 \
   --link elasticsearch:elasticsearch --link redis:redis \
   --name fracas gabegorelick/fracas
