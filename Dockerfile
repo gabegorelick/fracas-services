@@ -8,3 +8,4 @@ VOLUME ["/services"]
 WORKDIR /services
 
 ADD *.service /services/
+ADD *.env /services/

@@ -1,4 +1,5 @@
 fracas-services
 ===============
 
-Container to hold fracas's systemd units (AKA .service files)
+Docker image to hold fracas's systemd units (AKA .service files and environment
+  variables)
